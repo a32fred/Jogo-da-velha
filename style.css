@@ -1,0 +1,32 @@
+@media screen and (min-width: 660px) {
+    *{
+        margin: auto;
+        padding: auto;
+    }
+    
+    body{
+        text-align: center;
+        text-justify: center;
+    }
+    
+    #container{
+        margin-top: 2em;
+        margin-bottom: 2em;
+        width:603px;
+        height:600px;
+        border:solid 3px;
+    }
+    
+    .linha{
+        height:200px;
+        border-bottom:solid 1px;
+    }
+     
+    .casa{
+        width:200px;
+        height:100%;
+        border-right:solid 1px;
+        float:left;
+    }
+    
+}
