@@ -1,4 +1,4 @@
-@media screen and (min-width: 660px) {
+@media screen and (min-width: 800px) {
     *{
         margin: auto;
         padding: auto;
@@ -10,22 +10,21 @@
     }
     
     #container{
-        margin-top: 2em;
-        margin-bottom: 2em;
-        width:603px;
-        height:600px;
-        border:solid 3px;
+        margin-top: 1.5em;
+        width:615px;
+        height:615px;
     }
     
-    .linha{
+    /*.linha{
         height:200px;
         border-bottom:solid 1px;
-    }
+    }*/
      
     .casa{
-        width:200px;
-        height:100%;
-        border-right:solid 1px;
+        width: 200px;
+        height: 200px;
+        border:solid 1px;
+        position: flex;
         float:left;
     }
     
